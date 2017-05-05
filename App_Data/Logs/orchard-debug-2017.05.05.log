@@ -1,0 +1,59 @@
+2017-05-05 13:41:52,230 [76] Orchard.Recipes.Services.RecipeManager - Default - INFO Executing recipe 'Default'.
+2017-05-05 13:41:52,365 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Enqueuing recipe step 'Feature'.
+2017-05-05 13:41:52,385 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Enqueuing recipe step 'ContentDefinition'.
+2017-05-05 13:41:52,392 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Enqueuing recipe step 'Settings'.
+2017-05-05 13:41:52,395 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Enqueuing recipe step 'Migration'.
+2017-05-05 13:41:52,400 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Enqueuing recipe step 'Command'.
+2017-05-05 13:41:52,417 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Enqueuing recipe step 'ActivateShell'.
+2017-05-05 13:41:52,892 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe steps.
+2017-05-05 13:41:52,895 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe step 'Feature'.
+2017-05-05 13:41:52,898 [76] Orchard.Recipes.Services.RecipeStepExecutor - Default - INFO Executing recipe step 'Feature'.
+2017-05-05 13:41:52,904 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Executing recipe step 'Feature'.
+2017-05-05 13:41:52,910 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO FeatureStep: Enabling features: Orchard.Blogs;Orchard.Comments;Orchard.Tags;Orchard.Alias;Orchard.Autoroute;TinyMce;Orchard.MediaLibrary;Orchard.ContentPicker;Orchard.PublishLater;Orchard.Resources;Orchard.Widgets;Orchard.ContentTypes;Orchard.Scripting;Orchard.Scripting.Lightweight;PackagingServices;Orchard.Packaging;Orchard.Projections;Orchard.Fields;Orchard.OutputCache;Orchard.Taxonomies;Orchard.Workflows;Orchard.Layouts;Orchard.Layouts.Tokens;TheThemeMachine
+2017-05-05 13:41:53,288 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Finished executing recipe step 'Feature'.
+2017-05-05 13:41:53,332 [76] Orchard.Recipes.Services.RecipeScheduler - Default - INFO Scheduling next step of recipe.
+2017-05-05 13:42:03,546 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe steps.
+2017-05-05 13:42:03,548 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe step 'ContentDefinition'.
+2017-05-05 13:42:03,563 [76] Orchard.Recipes.Services.RecipeStepExecutor - Default - INFO Executing recipe step 'ContentDefinition'.
+2017-05-05 13:42:03,566 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Executing recipe step 'ContentDefinition'.
+2017-05-05 13:42:03,570 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO ContentDefinitionStep: Importing content type 'Page'.
+2017-05-05 13:42:04,075 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO ContentDefinitionStep: Importing content type 'BlogPost'.
+2017-05-05 13:42:04,129 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO ContentDefinitionStep: Importing content part 'BodyPart'.
+2017-05-05 13:42:04,164 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Finished executing recipe step 'ContentDefinition'.
+2017-05-05 13:42:04,194 [76] Orchard.Recipes.Services.RecipeScheduler - Default - INFO Scheduling next step of recipe.
+2017-05-05 13:42:04,660 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe steps.
+2017-05-05 13:42:04,662 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe step 'Settings'.
+2017-05-05 13:42:04,664 [76] Orchard.Recipes.Services.RecipeStepExecutor - Default - INFO Executing recipe step 'Settings'.
+2017-05-05 13:42:04,666 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Executing recipe step 'Settings'.
+2017-05-05 13:42:05,217 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Finished executing recipe step 'Settings'.
+2017-05-05 13:42:05,234 [76] Orchard.Recipes.Services.RecipeScheduler - Default - INFO Scheduling next step of recipe.
+2017-05-05 13:42:05,651 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe steps.
+2017-05-05 13:42:05,654 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe step 'Migration'.
+2017-05-05 13:42:05,656 [76] Orchard.Recipes.Services.RecipeStepExecutor - Default - INFO Executing recipe step 'Migration'.
+2017-05-05 13:42:05,657 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Executing recipe step 'Migration'.
+2017-05-05 13:42:05,980 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Finished executing recipe step 'Migration'.
+2017-05-05 13:42:05,995 [76] Orchard.Recipes.Services.RecipeScheduler - Default - INFO Scheduling next step of recipe.
+2017-05-05 13:42:06,412 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe steps.
+2017-05-05 13:42:06,415 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe step 'Command'.
+2017-05-05 13:42:06,417 [76] Orchard.Recipes.Services.RecipeStepExecutor - Default - INFO Executing recipe step 'Command'.
+2017-05-05 13:42:06,419 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Executing recipe step 'Command'.
+2017-05-05 13:42:06,422 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: layer create Default /LayerRule:"true" /Description:"The widgets in this layer are displayed on all pages"
+2017-05-05 13:42:07,300 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: layer create Authenticated /LayerRule:"authenticated" /Description:"The widgets in this layer are displayed when the user is authenticated"
+2017-05-05 13:42:07,347 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: layer create Anonymous /LayerRule:"not authenticated" /Description:"The widgets in this layer are displayed when the user is anonymous"
+2017-05-05 13:42:07,397 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: layer create Disabled /LayerRule:"false" /Description:"The widgets in this layer are never displayed"
+2017-05-05 13:42:07,446 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: layer create TheHomepage /LayerRule:"url '~/'" /Description:"The widgets in this layer are displayed on the home page"
+2017-05-05 13:42:07,493 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: site setting set baseurl
+2017-05-05 13:42:07,498 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: menu create /MenuName:"Main Menu"
+2017-05-05 13:42:07,543 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: page create /Slug:"welcome-to-orchard" /Title:"Welcome to Orchard!" /Path:"welcome-to-orchard" /Homepage:true /Publish:true /UseWelcomeText:true
+2017-05-05 13:42:08,638 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: menuitem create /MenuPosition:"0" /MenuText:"Home" /Url:"~/" /MenuName:"Main Menu"
+2017-05-05 13:42:08,723 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: widget create MenuWidget /Title:"Main Menu" /RenderTitle:false /Zone:"Navigation" /Position:"1" /Layer:"Default" /Identity:"MenuWidget1" /MenuName:"Main Menu"
+2017-05-05 13:42:08,855 [76] Orchard.Recipes.Services.RecipeExecutionLogger - Default - INFO CommandStep: Executing command: theme activate "The Theme Machine"
+2017-05-05 13:42:08,866 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Finished executing recipe step 'Command'.
+2017-05-05 13:42:08,884 [76] Orchard.Recipes.Services.RecipeScheduler - Default - INFO Scheduling next step of recipe.
+2017-05-05 13:42:09,380 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe steps.
+2017-05-05 13:42:09,383 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe step 'ActivateShell'.
+2017-05-05 13:42:09,384 [76] Orchard.Recipes.Services.RecipeStepExecutor - Default - INFO Executing recipe step 'ActivateShell'.
+2017-05-05 13:42:09,386 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Executing recipe step 'ActivateShell'.
+2017-05-05 13:42:09,388 [76] Orchard.Recipes.Providers.RecipeHandlers.RecipeExecutionStepHandler - Default - INFO Finished executing recipe step 'ActivateShell'.
+2017-05-05 13:42:09,764 [76] Orchard.Recipes.Services.RecipeScheduler - Default - INFO Scheduling next step of recipe.
+2017-05-05 13:42:10,123 [76] Orchard.Recipes.Services.RecipeStepQueue - Default - INFO Dequeuing recipe st
